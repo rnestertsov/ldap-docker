@@ -1,4 +1,28 @@
 * OpenLDAP in Docker container
+This project contains configuration for running LDAP server in the docker container.
+
+* How to start the server
+#+begin_src sh
+  docker-compose start
+#+end_src
+
+* Import sample data
+To import sample data run following command:
+#+begin_src sh
+  import-data.sh
+#+end_src
+
+The default password for all users is =P@ss1W0Rd!=.
+
+* Using Apache Directory Studio to connect to LDAP server
+- Download [[https://www.google.com/search?q=apache+directory+studio&oq=Apache+directory+s&aqs=chrome.2.69i57j69i59l2j0l5.3544j1j7&sourceid=chrome&ie=UTF-8][Apache Directory Studio]]
+- Connect to LDAP server using following parameters:
+  - host: =localhost=
+  - port: =386=
+  - base: =dc=aginity,dc=com=
+  - auth type: Simple Authentication
+  - username: cn=admin,dc=aginity,dc=com
+  - password: password
 
 * References
 https://blog.honosoft.com/2018/06/18/ldap-identity-server-series-%E3%83%BC-part-i-%E3%83%BC-openldap-on-docker-container/
