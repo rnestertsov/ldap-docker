@@ -1,0 +1,4 @@
+* OpenLDAP in Docker container
+
+* References
+https://blog.honosoft.com/2018/06/18/ldap-identity-server-series-%E3%83%BC-part-i-%E3%83%BC-openldap-on-docker-container/
