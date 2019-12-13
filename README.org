@@ -19,10 +19,10 @@ The default password for all users is =P@ss1W0Rd!=.
 - Connect to LDAP server using following parameters:
   - host: =localhost=
   - port: =386=
-  - base: =dc=aginity,dc=com=
+  - base: =dc=company,dc=com=
   - auth type: Simple Authentication
-  - username: cn=admin,dc=aginity,dc=com
-  - password: password
+  - username: =cn=admin,dc=company,dc=com=
+  - password: =password=
 
 * References
 https://blog.honosoft.com/2018/06/18/ldap-identity-server-series-%E3%83%BC-part-i-%E3%83%BC-openldap-on-docker-container/

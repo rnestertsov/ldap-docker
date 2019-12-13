@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   ldap:
-    container_name: aginity-ldap
+    container_name: my-ldap
     image: osixia/openldap:1.3.0
     ports:
       - "389:389"
