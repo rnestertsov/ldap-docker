@@ -3,7 +3,7 @@ This project contains configuration for running LDAP server in the docker contai
 
 * How to start the server
 #+begin_src sh
-  docker-compose start
+  docker-compose up
 #+end_src
 
 * Import sample data
